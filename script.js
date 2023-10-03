@@ -30,3 +30,15 @@ if ((year % 4 == 0 && !(year % 100 == 0)) || year % 400 == 0) {
 } else {
   console.log(`${year} is not a leap year.`);
 }
+let month = prompt("enter a month").toLowerCase();
+month = month.toLowerCase();
+switch (month) {
+  case "ocak":
+  case "mart":
+  case "mayis":
+  case "temmuz":
+  case "agustos":
+  case "ekim":
+  case "aralik":
+    console.log(`${month} has a 31 days`);
+    break;
