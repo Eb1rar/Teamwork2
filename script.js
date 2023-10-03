@@ -42,3 +42,15 @@ switch (month) {
   case "aralik":
     console.log(`${month} has a 31 days`);
     break;
+  case "nisan":
+  case "haziran":
+  case "eylul":
+  case "kasim":
+    console.log(`${month} has a 30 days`);
+    break;
+  case "subat":
+    console.log(`${month} has a 28 days`);
+    break;
+  default:
+    console.log("hatali bir giris yaptiniz");
+}
